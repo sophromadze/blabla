@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanza</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/sections.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div onclick="ScrollTop()" id="top-btn">
+        <i class="fa fa-angle-up"></i>
+      </div>
+      <main>
+        <img src="/images/heroshape.png" />
+        <header>
+          <div>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>123 Street, New York, USA</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-clock"></i>
+              <p>9.00 am - 9.00 pm</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p>+012 345 6789</p>
+            </div>
+          </div>
+        </header>
+        <nav>
+          <div class="mobUlBtn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <a class="mainLogo" href="#"
+            ><img src="/images/logo.png" alt="logo"
+          /></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li class="pagesLi">
+              <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
+              <ul class="pagesDropdown">
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+              <ul class="pagesDropdownMobile">
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#section4">Contact</a></li>
+          </ul>
+          <div class="socMed">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </nav>
+        <div class="content">
+          <div>
+            <button class="whiteBtn">Welcome to Finanza</button>
+            <h1>Your Financial Status Is Our Goal</h1>
+            <button class="blueBtn">explore more</button>
+          </div>
+          <div class="imgSlider">
+            <img src="/images/sliderImg1.png" />
+            <img src="/images/sliderImg2.png" />
+            <img src="/images/sliderImg3.png" />
+          </div>
+          <button class="prevBtn">
+            <i class="fa-solid fa-chevron-left fa-3x"></i>
+          </button>
+          <button class="nextBtn">
+            <i class="fa-solid fa-chevron-right fa-3x"></i>
+          </button>
+        </div>
+      </main>
+      <section id="section1" class="section1">
+        <div>
+          <div class="sec1UpDiv">
+            <img src="/images/ClientImg.png" alt="clientimg" />
+            <div>
+              <button class="whiteBtn">About Us</button>
+              <h2>We Help Our Clients To Grow Their Business</h2>
+              <p>
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+                sed stet lorem sit clita duo justo magna dolore erat amet
+              </p>
+              <div id="btnsDiv" class="btnsDiv">
+                <div>
+                  <button id="storyBtn" class="activeBtn">Story</button>
+                  <button id="missionBtn">Mission</button>
+                  <button id="vissionBtn">Vission</button>
+                  <button></button>
+                </div>
+                <div id="storyContent">
+                  <p>
+                    <strong>Story content </strong>erat elitr rebum at clita.
+                    Diam dolor diam tempor sit.Aliqu diam amet diam et.
+                  </p>
+                  <br />
+                  <p>
+                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
+                    eos labore. Clita erat ipsum et lorem et
+                  </p>
+                </div>
+                <div id="missionContent" class="inActive">
+                  <p>
+                    <strong>Mission content </strong> elitr rebum at clita. Diam
+                    dolor diam ipsum et tempor sit.Aliqu diam amet diam et.
+                  </p>
+                  <br />
+                  <p>
+                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
+                    eos labore. Clita erat ipsum et lorem et
+                  </p>
+                </div>
+                <div id="vissionContent" class="inActive">
+                  <p>
+                    <strong>Vission content </strong> elitr rebum at clita. Diam
+                    dolor diam ipsum et tempor sit.Aliqu diam amet diam et.
+                  </p>
+                  <br />
+                  <p>
+                    Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et
+                    eos labore. Clita erat ipsum et lorem et
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec1DownDiv">
+          <div>
+            <i class="fa-solid fa-x"></i>
+            <div>
+              <h6>No Hidden Cost</h6>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-user-group"></i>
+            <div>
+              <h6>Dedicated Team</h6>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h6>24/7 Available</h6>
+              <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section2" class="section2">
+        <div class="upperOne">
+          <div>
+            <i class="fa-solid fa-users fa-3x"></i>
+            <h3>1234</h3>
+            <p>Happy Clients</p>
+            <div class="line"></div>
+          </div>
+          <div>
+            <i class="fa-solid fa-check fa-3x"></i>
+            <h3>1234</h3>
+            <p>Projects Completed</p>
+            <div class="line"></div>
+          </div>
+          <div>
+            <i class="fa-solid fa-user-gear fa-3x"></i>
+            <h3>1234</h3>
+            <p>Dedicated Staff</p>
+            <div class="line"></div>
+          </div>
+          <div>
+            <i class="fa-solid fa-award fa-3x"></i>
+            <h3>1234</h3>
+            <p>Dedicated Staff</p>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="downOne">
+          <div>
+            <button class="whiteBtn">Why Choosing Us!</button>
+            <h3>Few Reasons Why People Choosing Us!</h3>
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <button class="blueBtn">explore more</button>
+          </div>
+          <div class="cardsDiv">
+            <div>
+              <div class="card whiteCard">
+                <i class="fa-solid fa-check fa-3x"></i>
+                <h5>Fast Executions</h5>
+                <p>
+                  Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                  justo erat amet
+                </p>
+                <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="card blueCard">
+                <i class="fa-solid fa-check fa-3x"></i>
+                <h5>Fast Executions</h5>
+                <p>
+                  Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                  justo erat amet
+                </p>
+                <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="card whiteCard">
+              <i class="fa-solid fa-check fa-3x"></i>
+              <h5>Fast Executions</h5>
+              <p>
+                Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo
+                justo erat amet
+              </p>
+              <a href="#">Read More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section3" class="section3">
+        <button class="whiteBtn">Our Services</button>
+        <h2>Awesome Financial Services For Business</h2>
+        <div>
+          <div class="sec3LeftDiv">
+            <button class="active">
+              <div class="dropdownIcon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <h4>Financial Planing</h4>
+            </button>
+            <button>
+              <div class="dropdownIcon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <h4>Financial Planing</h4>
+            </button>
+            <button>
+              <div class="dropdownIcon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <h4>Financial Planing</h4>
+            </button>
+            <button>
+              <div class="dropdownIcon">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <h4>Financial Planing</h4>
+            </button>
+          </div>
+          <img class="oSImage" src="/images/OSImage.png" alt="osimage" />
+          <div class="sec3RightDiv">
+            <h5>25 Years Of Experience In Financial Support</h5>
+            <p>
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <div class="checks">
+              <div>
+                <i class="fa-solid fa-check fa-2x"></i>
+                <p>Secured Loans</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-check fa-2x"></i>
+                <p>Credit Facilities</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-check fa-2x"></i>
+                <p>Cash Advanced</p>
+              </div>
+            </div>
+            <button class="blueBtn">Read More</button>
+          </div>
+        </div>
+      </section>
+      <section id="section4" class="section4">
+        <div class="blueBack"></div>
+        <form id="contactForm">
+          <button type="button" class="whiteBtn">Get In Touch</button>
+          <h2>Request A Call-Back</h2>
+          <div class="outDiv">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="outDiv">
+            <div>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Your Phone"
+                required
+              />
+              <span id="phoneError" class="error hidden"
+                >Phone must contain 9 digits</span
+              >
+              <span id="phoneError2" class="error hidden"
+                >Phone must start with +995</span
+              >
+            </div>
+            <div>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Your subject"
+                required
+              />
+              <span id="subjectError" class="error hidden"
+                >Subject must contain at least 5 characters</span
+              >
+            </div>
+          </div>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" class="blueBtn">Submit now</button>
+        </form>
+      </section>
+      <footer>
+        <div class="upFooterDiv">
+          <div>
+            <h6>Our Office</h6>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>123 Street, New York, USA</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              <p>+012 345 6789</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+            <div class="footerSoc">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <ul>
+            <h6>Services</h6>
+            <li>> <a href="#">Financial Planning</a></li>
+            <li>> <a href="#">Cash Investment</a></li>
+            <li>> <a href="#">Financial Consultancy</a></li>
+            <li>> <a href="#">Business Loans</a></li>
+            <li>> <a href="#">Business Analysis</a></li>
+          </ul>
+          <ul>
+            <h6>Quick Links</h6>
+            <li>> <a href="#">About Us</a></li>
+            <li>> <a href="#">Contact Us</a></li>
+            <li>> <a href="#">Our services</a></li>
+            <li>> <a href="#">Terms & Condition</a></li>
+            <li>> <a href="#">Support</a></li>
+          </ul>
+          <form action="">
+            <h6>Newsletter</h6>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div>
+              <input
+                type="email"
+                name="footerMail"
+                id="footerMail"
+                placeholder="Your Mail"
+                required
+              />
+              <button type="submit" class="blueBtn">SingUp</button>
+            </div>
+          </form>
+        </div>
+        <div class="downFooterDiv">
+          <p>&copy; Your Site Name, All Right Reserved.</p>
+          <p>Redesigned By saikat mondal and Designed By HTML Codex</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

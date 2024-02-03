@@ -1,0 +1,141 @@
+footer {
+  color: #ffffff;
+}
+
+.upFooterDiv {
+  display: flex;
+  justify-content: space-evenly;
+  background: #011a41;
+  width: 100%;
+  padding: 59px 20px 85px 20px;
+}
+
+.upFooterDiv > div {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.upFooterDiv > div > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.upFooterDiv h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+
+.upFooterDiv p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.upFooterDiv ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.upFooterDiv ul li {
+  font-weight: 900;
+}
+
+.upFooterDiv ul li a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.upFooterDiv .footerSoc {
+  flex-shrink: 0;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerSoc i {
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSoc a {
+  text-decoration: none;
+}
+
+.footerSoc i:hover {
+  background: #ffffff;
+  color: #011a41;
+  transition: 0.3s;
+}
+
+.upFooterDiv form {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.upFooterDiv form div {
+  position: relative;
+}
+
+.upFooterDiv form button {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  right: 12px;
+  top: 9px;
+  margin-top: 0;
+  max-height: 37px;
+  max-width: 73px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.upFooterDiv form p {
+  max-width: 262px;
+}
+
+.upFooterDiv form input {
+  padding: 15px 5px 15px 5px;
+  width: 100%;
+  max-width: 262px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 54px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+}
+
+.downFooterDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: #000000;
+  width: 100%;
+  padding: 33px 70px;
+}
+
+.downFooterDiv p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}

@@ -1,0 +1,542 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.sec1UpDiv img {
+  max-width: 560px;
+  width: 50%;
+}
+
+.sec1UpDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec1UpDiv > div > button {
+  margin-bottom: 0;
+}
+
+.sec1UpDiv h2 {
+  max-width: 549px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: rgba(1, 26, 65, 1);
+}
+
+.sec1UpDiv > div p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(85, 85, 85, 1);
+}
+
+.sec1UpDiv > div > p {
+  max-width: 500px;
+}
+
+.sec1UpDiv > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19px;
+}
+
+.btnsDiv {
+  margin-top: 55px;
+  margin-right: 10px;
+}
+
+.btnsDiv > div:first-child {
+  display: flex;
+}
+
+.btnsDiv button {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 130.88px;
+  width: 100%;
+  height: 34px;
+  padding: 5px;
+  color: rgba(85, 85, 85, 1);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(222, 226, 230, 1);
+}
+
+.btnsDiv button:hover:not(:last-child) {
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid rgba(222, 226, 230, 1);
+  border-bottom: none;
+}
+
+.btnsDiv button:last-child {
+  max-width: 70px;
+  cursor: default;
+}
+
+.btnsDiv .activeBtn {
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid rgba(222, 226, 230, 1);
+  border-bottom: none;
+}
+
+.btnsDiv p:first-child {
+  margin-top: 15px;
+}
+
+.btnsDiv p {
+  max-width: 470px;
+  padding-left: 5px;
+}
+
+.sec1DownDiv {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 91%;
+  border-radius: 25px;
+  padding: 20px;
+  border: 1px solid rgba(144, 157, 226, 1);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.14);
+  gap: 20px;
+}
+
+.sec1DownDiv > div:not(:last-child) {
+  border-right: 1px solid rgba(144, 157, 226, 1);
+  padding-right: 29px;
+}
+
+.sec1DownDiv > div {
+  display: flex;
+  gap: 13px;
+}
+
+.sec1DownDiv div div {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.sec1DownDiv i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 40px;
+  max-width: 40px;
+  width: 100%;
+  background: rgba(53, 94, 252, 1);
+  color: #fff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sec1DownDiv h6 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: rgba(1, 26, 65, 1);
+}
+
+.sec1DownDiv p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(85, 85, 85, 1);
+  max-width: 260px;
+}
+
+.section2 {
+  margin-top: 45px;
+}
+
+.section2 .upperOne {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  background: rgba(53, 94, 252, 1);
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section2 .upperOne > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.section2 .upperOne i {
+  color: rgba(255, 255, 255, 1);
+}
+
+.section2 .upperOne h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section2 .upperOne p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  text-align: center;
+}
+
+.line {
+  background: rgba(255, 255, 255, 1);
+  height: 1px;
+  width: 68px;
+}
+
+.downOne {
+  margin-top: 47px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.downOne h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  color: rgba(1, 26, 65, 1);
+  max-width: 540px;
+}
+
+.downOne > div > p {
+  color: rgba(85, 85, 85, 1);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.downOne .whiteBtn {
+  margin-bottom: 20px;
+}
+
+.downOne .blueBtn {
+  margin-top: 20px;
+}
+
+.cardsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.cardsDiv > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardsDiv .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 18px;
+  border-radius: 15px;
+}
+
+.cardsDiv .whiteCard {
+  border: 1px solid rgba(144, 157, 226, 1);
+}
+
+.cardsDiv .blueCard {
+  background: rgba(53, 94, 252, 1);
+  border: 1px solid rgba(144, 157, 226, 1);
+}
+
+.card h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+  max-width: 218px;
+}
+
+.card p {
+  max-width: 218px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whiteCard > i {
+  color: rgba(53, 94, 252, 1);
+}
+
+.whiteCard h5 {
+  color: rgba(1, 26, 65, 1);
+}
+
+.whiteCard p {
+  color: rgba(85, 85, 85, 1);
+}
+
+.whiteCard a {
+  color: rgba(53, 94, 252, 1);
+}
+
+.blueCard a,
+.blueCard > i,
+.blueCard h5,
+.blueCard p {
+  color: rgba(255, 255, 255, 1);
+}
+
+.section3 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 .whiteBtn {
+  margin-bottom: 22px;
+}
+
+.section3 h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  color: rgba(1, 26, 65, 1);
+  max-width: 542px;
+}
+
+.section3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 55px;
+}
+
+.sec3LeftDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.sec3LeftDiv button {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid rgba(144, 157, 226, 1);
+  padding: 20px;
+  padding-right: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.sec3LeftDiv button:hover {
+  background: rgba(53, 94, 252, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: 0.3s;
+}
+
+.sec3LeftDiv button:hover .dropdownIcon div {
+  background: rgba(255, 255, 255, 1);
+  transition: 0.3s;
+}
+
+.sec3LeftDiv button.active {
+  border: none;
+  background: rgba(53, 94, 252, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.active .dropdownIcon div {
+  color: rgba(53, 94, 252, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.dropdownIcon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dropdownIcon div {
+  height: 3px;
+  width: 36px;
+  background: #000;
+}
+
+.oSImage {
+  max-width: 347px;
+}
+
+.sec3RightDiv {
+  max-width: 355px;
+  width: 100%;
+}
+
+.sec3RightDiv h5 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  color: rgba(1, 26, 65, 1);
+  margin-bottom: 32px;
+}
+
+.sec3RightDiv p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(85, 85, 85, 1);
+}
+
+.sec3RightDiv div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.sec3RightDiv .checks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sec3RightDiv i {
+  color: rgba(53, 94, 252, 1);
+}
+
+.section4 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.blueBack {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 346px;
+  background: rgba(53, 94, 252, 1);
+  z-index: -1;
+}
+
+.section4 form {
+  margin-top: 117px;
+  background: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(144, 157, 226, 1);
+  width: 100%;
+  max-width: 720px;
+}
+
+.section4 form .whiteBtn {
+  margin-bottom: 0;
+}
+
+.section4 form .blueBtn {
+  margin-top: 0;
+  width: 100%;
+}
+
+.section4 form .blueBtn:hover::after {
+  width: 14%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section4 form h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  color: rgba(1, 26, 65, 1);
+}
+
+.outDiv {
+  display: flex;
+  gap: 23px;
+  width: 100%;
+  max-width: 620px;
+}
+
+.outDiv div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section4 form input {
+  padding: 15px 10px 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(144, 157, 226, 1);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.section4 form textarea {
+  font-size: 16px;
+  padding: 15px 15px 15px 10px;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(144, 157, 226, 1);
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.inActive {
+  display: none;
+}

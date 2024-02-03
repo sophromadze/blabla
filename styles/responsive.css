@@ -1,0 +1,515 @@
+@media (max-width: 1000px) {
+  main .content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    max-width: 431px;
+  }
+
+  .section1 > div:first-child {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+    position: relative;
+  }
+
+  .sec1UpDiv img {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    height: 100%;
+    margin-bottom: 37px;
+    object-fit: cover;
+  }
+
+  .sec1UpDiv > div {
+    align-items: center;
+    padding: 10px 30px;
+  }
+
+  .sec1UpDiv h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .btnsDiv button.activeBtn,
+  .btnsDiv button {
+    border-color: rgba(85, 85, 85, 1);
+  }
+
+  .btnsDiv button:hover:not(:last-child) {
+    border-color: rgba(85, 85, 85, 1);
+    border-bottom: none;
+  }
+
+  .sec1DownDiv > div:not(:last-child),
+  .sec1DownDiv > div {
+    padding-right: 5px;
+    border-right: none;
+  }
+
+  .oSImage {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .upFooterDiv {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .downFooterDiv {
+    padding: 33px 10px;
+  }
+
+  .downFooterDiv p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  #top-btn {
+    width: 40px;
+    height: 40px;
+    transition: none;
+  }
+  #top-btn i {
+    margin-top: -5px;
+    font-size: 10px;
+    transition: none;
+  }
+
+  #top-btn:hover {
+    background-color: rgb(1, 39, 99);
+  }
+
+  #top-btn:hover i {
+    margin-top: -8px;
+  }
+
+  header > div {
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+  }
+
+  .mobUlBtn {
+    display: block;
+  }
+
+  .mobUlBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    margin-left: 10px;
+
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    z-index: 11;
+  }
+
+  .mobUlBtn div {
+    background: rgba(53, 94, 252, 1);
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    transition: 0.1s ease;
+    flex-shrink: 0;
+  }
+
+  .mobUlBtn.active div:first-child {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    background-color: #ffffff;
+  }
+
+  .mobUlBtn.active div:nth-child(2) {
+    display: none;
+  }
+
+  .mobUlBtn.active div:last-child {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    background-color: #ffffff;
+  }
+
+  nav > ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    /* left: 0; */
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-top: 130px;
+  }
+
+  nav > ul li {
+    border-bottom: 1px solid rgba(53, 94, 252, 1);
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  nav ul li a:hover {
+    border: none;
+  }
+
+  nav ul.active {
+    display: flex;
+    left: 0;
+  }
+
+  .pagesDropdownMobile {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pagesDropdown {
+    display: none;
+    /* background: none;
+    position: unset;
+    margin-left: 30px; */
+  }
+
+  .pagesLi:hover > .pagesDropdown {
+    display: none;
+  }
+
+  .pagesDropdownMobile li {
+    border-bottom: 1px dotted rgba(53, 94, 252, 1);
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .pagesDropdownMobile li:last-child {
+    border-bottom: none;
+  }
+
+  main .content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  main .content h1 {
+    font-size: 30px;
+    line-height: 50px;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  main .content > div:first-child {
+    display: flex;
+    padding-left: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .whiteBtn {
+    margin-bottom: 0;
+    margin: 0 10px;
+  }
+
+  .blueBtn {
+    margin-top: 0;
+    margin: 0 10px;
+  }
+
+  .imgSlider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content > button {
+    bottom: 30%;
+  }
+
+  .imgSlider img {
+    top: 0;
+    max-width: 70%;
+  }
+
+  .sec1DownDiv {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .downOne {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .cardsDiv {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .downOne > div:first-child {
+    text-align: center;
+  }
+
+  .downOne h3 {
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 400px;
+  }
+
+  .section3 {
+    padding: 0 10px;
+  }
+
+  .section3 .whiteBtn {
+    margin-bottom: 0;
+  }
+
+  .section3 > div {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .section3 h2 {
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 350px;
+    margin-top: 10px;
+  }
+
+  .oSImage {
+    height: 70%;
+  }
+
+  .sec3LeftDiv {
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec3LeftDiv button {
+    padding: 10px;
+  }
+
+  .sec3RightDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .sec3RightDiv h5 {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .sec3RightDiv .checks {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .sec3RightDiv div {
+    gap: 2px;
+  }
+
+  .sec3RightDiv p {
+    text-align: center;
+  }
+
+  .sec3RightDiv .blueBtn {
+    margin-top: 10px;
+  }
+
+  .outDiv {
+    flex-direction: column;
+  }
+
+  .upFooterDiv h6 {
+    font-size: 18px;
+  }
+
+  .upFooterDiv p,
+  .upFooterDiv ul li,
+  .upFooterDiv ul li a {
+    font-size: 12px;
+  }
+
+  .upFooterDiv ul {
+    gap: 0;
+  }
+
+  .upFooterDiv > div {
+    gap: 5px;
+  }
+
+  .downFooterDiv {
+    padding: 23px 10px;
+  }
+
+  .downFooterDiv p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  #top-btn {
+    width: 30px;
+    height: 30px;
+    transition: none;
+  }
+  #top-btn i {
+    margin-top: -10px;
+    font-size: 10px;
+    transition: none;
+  }
+
+  #top-btn:hover i {
+    margin-top: -15px;
+  }
+
+  header {
+    flex-wrap: wrap;
+    gap: 5px;
+    height: auto;
+    padding: 5px;
+    justify-content: flex-start;
+    padding-left: 50px;
+  }
+
+  main .content > div:first-child {
+    margin-top: 20px;
+  }
+
+  .mainLogo img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  nav .socMed {
+    gap: 5px;
+  }
+
+  .content > button {
+    max-width: 40px;
+  }
+  .content i {
+    padding: 2px;
+  }
+
+  .section1 {
+    margin-top: 0;
+  }
+
+  .sec1UpDiv h2 {
+    font-size: 25px;
+  }
+
+  .sec1UpDiv > div {
+    gap: 12px;
+  }
+
+  .btnsDiv {
+    margin-top: 0;
+  }
+
+  .sec1UpDiv img {
+    margin-bottom: 0;
+  }
+
+  .btnsDiv button:last-child {
+    display: none;
+  }
+
+  .sec1DownDiv > div:not(:last-child) {
+    border-bottom: 1px solid rgba(144, 157, 226, 1);
+    padding-bottom: 29px;
+  }
+
+  .section4 form h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 470px) {
+  .section3 h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .sec3RightDiv p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .fa-2x {
+    font-size: 16px;
+  }
+  .section3 > div {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sec1UpDiv > div {
+    padding: 10px;
+  }
+
+  .dropdownIcon div {
+    width: 16px;
+    height: 1px;
+  }
+  .sec3LeftDiv button {
+    gap: 5px;
+    font-size: 12px;
+  }
+
+  .downFooterDiv {
+    padding: 23px 10px;
+  }
+
+  .downFooterDiv p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagesDropdownMobile {
+    display: none !important;
+  }
+}
